@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route,} from 'react-router-dom';
+
 import { Cemilan } from './pages/cemilan';
 import { Makanan } from './pages/makanan';
 import { Minuman } from './pages/minuman';
@@ -16,7 +17,7 @@ root.render(
             <Route path='/' element= {<App />} />
             <Route path='Makanan' element= { <Makanan/> } />
             <Route path='Minuman' element= { <Minuman/> } />
-            <Route path='Cemilan' element= {<Cemilan/>} />
+            <Route path='Cemilan' element={ <Cemilan/>} />
           </Routes>
     </BrowserRouter>
   </React.StrictMode>
