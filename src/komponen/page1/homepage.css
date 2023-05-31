@@ -1,0 +1,54 @@
+
+.body {
+    padding-top: 1rem;
+    background-color: #ffffff;
+}
+
+.containerr{
+    background-color: white;
+    padding: 0px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.caption {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.title {
+    margin-top: 2rem;
+    color: blue;
+    font-weight: bold;
+}
+.row-about {
+    padding-top: 2rem;
+    background-color: white;
+}
+
+
+.container-skils {
+
+    margin-bottom: 3rem;
+    background-color: white;
+  
+}
+.titlee {
+    margin-bottom: 2rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(41, 3, 255);
+    color: rgb(241, 241, 245);
+}
+@media (max-width: 575px) {
+    .caption {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .images {
+        height: 180px;
+    }
+}
